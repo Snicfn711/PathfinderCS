@@ -6,4 +6,17 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".PathfinderCS"
     android:orientation="vertical"
     android:id="@+id/background">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <android.support.v4.view.PagerTabStrip
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+            android:background="#000000"
+            android:textColor="#ffffff"/>
+    </android.support.v4.view.ViewPager>
+
 </LinearLayout>
+

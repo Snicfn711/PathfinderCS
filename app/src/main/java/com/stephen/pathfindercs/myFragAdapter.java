@@ -19,11 +19,11 @@ public class myFragAdapter extends FragmentPagerAdapter
         switch(i)
         {
             case 0:
-                return StatScreen.newInstance("One", "");
+                return StatScreen.newInstance(0, "Stats");
             case 1:
-                return SkillScreen.newInstance("Two", "");
+                return SkillScreen.newInstance(1, "Skills");
             default:
-                return StatScreen.newInstance("Three","");
+                return StatScreen.newInstance(2,"");
         }
 
     }
